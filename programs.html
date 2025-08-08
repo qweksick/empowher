@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Программы — EmpowHer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #fdf4ff, #ede9fe);
+      color: #1f2937;
+    }
+    header {
+      background: linear-gradient(to right, #f3e8ff, #ede9fe);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #9333ea;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #4c1d95;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #9333ea;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 40px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    h1, h2 {
+      color: #7e22ce;
+    }
+    .program-card {
+      border: 2px solid #ede9fe;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      background-color: #faf5ff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: transform 0.2s;
+    }
+    .program-card:hover {
+      transform: translateY(-4px);
+    }
+    .program-title {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .program-description {
+      font-size: 16px;
+      color: #5b21b6;
+      margin-bottom: 10px;
+    }
+    .program-details {
+      font-size: 15px;
+      color: #4c1d95;
+    }
+    .program-extra {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid #ddd6fe;
+      font-size: 14px;
+      color: #6b21a8;
+    }
+    footer {
+      background-color: #4c1d95;
+      color: #fdf4ff;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">EmpowHer</div>
+    <nav>
+      <a href="main.html">Главная</a>
+      <a href="about.html">О нас</a>
+      <a href="#">Программы</a>
+      <a href="mentorship.html">Менторство</a>
+      <a href="apply.html">Подать заявку</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h1>Наши программы</h1>
+
+    <div class="program-card">
+      <div class="program-title">Tech for Her</div>
+      <div class="program-description">Основы веб-разработки, Python и цифровой грамотности.</div>
+      <div class="program-details">
+        Подойдёт начинающим, кто хочет освоить IT-сферу с нуля.<br>
+        Длительность: 3 месяца · Формат: онлайн · Сертификат по окончании.
+      </div>
+      <div class="program-extra">
+        Почему стоит выбрать: это шанс войти в IT даже без технического образования. <br>
+        Что вы получите: базовые навыки программирования, уверенность в работе с цифровыми инструментами, поддержка сообщества и наставников.
+      </div>
+    </div>
+
+    <div class="program-card">
+      <div class="program-title">She Leads</div>
+      <div class="program-description">Программа по развитию лидерских навыков и soft skills.</div>
+      <div class="program-details">
+        Подойдёт студенткам, активисткам, тем, кто стремится к лидерству.<br>
+        Длительность: 6 недель · Формат: вебинары + проекты.
+      </div>
+      <div class="program-extra">
+        Почему стоит выбрать: научитесь эффективно общаться, управлять проектами и вдохновлять других.<br>
+        Что вы получите: практические навыки коммуникации, опыт публичных выступлений, индивидуальную обратную связь и командную работу.
+      </div>
+    </div>
+
+    <div class="program-card">
+      <div class="program-title">Global Voices</div>
+      <div class="program-description">Английский для активисток и будущих международных лидерок.</div>
+      <div class="program-details">
+        Подойдёт девушкам с уровнем A2–B2, желающим уверенно говорить и выступать.<br>
+        Длительность: 2 месяца · Формат: разговорные клубы + мастер-классы.
+      </div>
+      <div class="program-extra">
+        Почему стоит выбрать: английский как инструмент влияния на глобальные темы.<br>
+        Что вы получите: повышение уверенности, расширение словарного запаса, подготовка к публичным выступлениям и дебатам.
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 EmpowHer. Все права защищены.</p>
+  </footer>
+</body>
+</html>
